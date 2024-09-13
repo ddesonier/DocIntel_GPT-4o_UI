@@ -24,8 +24,8 @@ This project is a Streamlit application for extracting and transforming invoice 
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/invoice-data-extraction.git
-    cd invoice-data-extraction
+    git clone https://github.com/ddesonier/DocIntel_GPT-4o_UI.git
+    cd DocIntel_GPT-4o_UI
     ```
 
 2. Create a virtual environment and activate it:
