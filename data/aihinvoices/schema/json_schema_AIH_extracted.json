@@ -1,0 +1,148 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "company_information": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "address": {
+                        "type": "string"
+                    },
+                    "phone": {
+                        "type": "string"
+                    },
+                    "website": {
+                        "type": "string"
+                    }
+                }
+            },
+            "invoice_information": {
+                "type": "object",
+                "properties": {
+                    "quote_number": {
+                        "type": "string"
+                    },
+                    "date": {
+                        "type": "string"
+                    },
+                    "page": {
+                        "type": "string"
+                    },
+                    "RFQ_no": {
+                        "type": "string"
+                    }
+                }
+            },
+            "seller_information": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "department": {
+                        "type": "string"
+                    },
+                    "address": {
+                        "type": "string"
+                    }
+                }
+            },
+            "ship_to_information": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "address": {
+                        "type": "string"
+                    }
+                }
+            },
+            "contact_information": {
+                "type": "object",
+                "properties": {
+                    "contact": {
+                        "type": "string"
+                    },
+                    "sales_person": {
+                        "type": "string"
+                    },
+                    "email": {
+                        "type": "string"
+                    },
+                    "payment_terms": {
+                        "type": "string"
+                    },
+                    "freight_terms": {
+                        "type": "string"
+                    },
+                    "ship_via": {
+                        "type": "string"
+                    }
+                }
+            },
+            "items": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "line": {
+                            "type": "integer"
+                        },
+                        "item_no": {
+                            "type": "string"
+                        },
+                        "cross_reference_no": {},
+                        "rev": {},
+                        "UOM": {
+                            "type": "string"
+                        },
+                        "quantity": {
+                            "type": "integer"
+                        },
+                        "unit_price": {
+                            "type": "number"
+                        },
+                        "total_price": {
+                            "type": "number"
+                        },
+                        "lead_time": {
+                            "type": "string"
+                        },
+                        "description": {
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "totals": {
+                "type": "object",
+                "properties": {
+                    "subtotal": {
+                        "type": "number"
+                    },
+                    "invoice_discount": {
+                        "type": "number"
+                    },
+                    "tax": {},
+                    "total": {
+                        "type": "number"
+                    }
+                }
+            },
+            "notes": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "form": {
+                "type": "string"
+            }
+        }
+    }
+}

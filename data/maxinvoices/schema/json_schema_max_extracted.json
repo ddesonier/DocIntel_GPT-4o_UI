@@ -1,0 +1,102 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "company_information": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "address": {
+                        "type": "string"
+                    },
+                    "email": {
+                        "type": "string"
+                    },
+                    "phone": {
+                        "type": "string"
+                    },
+                    "website": {
+                        "type": "string"
+                    }
+                }
+            },
+            "customer_information": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "address": {
+                        "type": "string"
+                    },
+                    "country": {
+                        "type": "string"
+                    }
+                }
+            },
+            "invoice_information": {
+                "type": "object",
+                "properties": {
+                    "invoice_number": {
+                        "type": "string"
+                    },
+                    "invoice_date": {
+                        "type": "string"
+                    },
+                    "due_date": {
+                        "type": "string"
+                    }
+                }
+            },
+            "items": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        },
+                        "quantity": {
+                            "type": "integer"
+                        },
+                        "unit": {
+                            "type": "string"
+                        },
+                        "price": {
+                            "type": "number"
+                        },
+                        "amount": {
+                            "type": "number"
+                        }
+                    }
+                }
+            },
+            "summary": {
+                "type": "object",
+                "properties": {
+                    "discount": {
+                        "type": "string"
+                    },
+                    "subtotal_without_tax": {
+                        "type": "number"
+                    },
+                    "total_usd": {
+                        "type": "number"
+                    },
+                    "amount_paid": {
+                        "type": "number"
+                    },
+                    "amount_due_usd": {
+                        "type": "number"
+                    }
+                }
+            },
+            "terms_conditions": {
+                "type": "string"
+            }
+        }
+    }
+}

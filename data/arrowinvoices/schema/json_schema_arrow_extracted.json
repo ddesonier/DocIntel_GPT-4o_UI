@@ -1,0 +1,130 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "company_information": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "address": {
+                        "type": "string"
+                    },
+                    "city_state_zip": {
+                        "type": "string"
+                    },
+                    "phone": {
+                        "type": "string"
+                    },
+                    "fax": {
+                        "type": "string"
+                    }
+                }
+            },
+            "invoice_information": {
+                "type": "object",
+                "properties": {
+                    "date": {
+                        "type": "string"
+                    },
+                    "invoice_number": {
+                        "type": "string"
+                    }
+                }
+            },
+            "bill_to": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "company_name": {
+                        "type": "string"
+                    },
+                    "address": {
+                        "type": "string"
+                    },
+                    "city_state_zip": {
+                        "type": "string"
+                    },
+                    "phone": {
+                        "type": "string"
+                    }
+                }
+            },
+            "ship_to": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "company_name": {
+                        "type": "string"
+                    },
+                    "address": {
+                        "type": "string"
+                    },
+                    "city_state_zip": {
+                        "type": "string"
+                    },
+                    "phone": {
+                        "type": "string"
+                    }
+                }
+            },
+            "sales_information": {
+                "type": "object",
+                "properties": {
+                    "salesperson": {},
+                    "ship_via": {},
+                    "ship_date": {},
+                    "terms": {},
+                    "due_date": {}
+                }
+            },
+            "items": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "string"
+                        },
+                        "description": {
+                            "type": "string"
+                        },
+                        "quantity": {
+                            "type": "string"
+                        },
+                        "unit_price": {
+                            "type": "string"
+                        },
+                        "line_total": {
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "totals": {
+                "type": "object",
+                "properties": {
+                    "subtotal": {
+                        "type": "string"
+                    },
+                    "tax_rate": {
+                        "type": "string"
+                    },
+                    "sales_tax": {
+                        "type": "string"
+                    },
+                    "shipping_and_handling": {},
+                    "total": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}

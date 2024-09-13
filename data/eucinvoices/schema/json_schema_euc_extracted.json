@@ -1,0 +1,90 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "Company Information": {
+                "type": "object",
+                "properties": {
+                    "Name": {
+                        "type": "string"
+                    },
+                    "Address": {
+                        "type": "string"
+                    },
+                    "Website": {
+                        "type": "string"
+                    },
+                    "Email": {
+                        "type": "string"
+                    }
+                }
+            },
+            "European Union Customers": {
+                "type": "object",
+                "properties": {
+                    "Note": {
+                        "type": "string"
+                    },
+                    "Phone": {
+                        "type": "string"
+                    },
+                    "Fax": {
+                        "type": "string"
+                    },
+                    "Tax ID Number": {
+                        "type": "string"
+                    }
+                }
+            },
+            "Purchase Order": {
+                "type": "object",
+                "properties": {
+                    "Bill To": {},
+                    "Ship To": {
+                        "type": "string"
+                    },
+                    "Email Address": {}
+                }
+            },
+            "Items": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "Qty": {},
+                        "Item": {
+                            "type": "string"
+                        },
+                        "Description": {
+                            "type": "string"
+                        },
+                        "Each": {
+                            "type": "string"
+                        },
+                        "Total": {
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "Totals": {
+                "type": "object",
+                "properties": {
+                    "Total": {
+                        "type": "string"
+                    },
+                    "Taxes (Ohio residents add 6%)": {
+                        "type": "string"
+                    },
+                    "Balance Due": {
+                        "type": "string"
+                    }
+                }
+            },
+            "Notes": {
+                "type": "string"
+            }
+        }
+    }
+}

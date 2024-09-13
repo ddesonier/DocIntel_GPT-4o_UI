@@ -1,0 +1,85 @@
+{  
+  "company_information": {  
+    "name": "Arizona Industrial Hardware, Inc.",  
+    "address": "6965 W. Frye Road, Chandler, AZ 85226",  
+    "phone": "(480) 831-6003",  
+    "website": "www.aihfasteners.com",  
+    "certification": "AS9100D / ISO 9001:2015 Registered"  
+  },  
+  "sales_quote": {  
+    "quote_number": "SQ077525",  
+    "date": "3/26/2024",  
+    "page": "1 of 1",  
+    "RFO_No": "D2470"  
+  },  
+  "seller_information": {  
+    "name": "General Dynamics Mission Systems, Inc.",  
+    "contact": "Attn: Accounts Payable",  
+    "address": "3150 Fairview Park Drive, Falls Church, VA 22042, US"  
+  },  
+  "ship_to": {  
+    "name": "GENERAL DYNAMICS C4 SYSTEMS",  
+    "address": "8201 E. MCDOWELL RD, SCOTTSDALE, AZ 85257, US"  
+  },  
+  "contact": {  
+    "name": "Cliff Navales"  
+  },  
+  "sales_person": {  
+    "name": "Annie Hunt",  
+    "email": "annie.hunt@aihfasteners.com",  
+    "payment_terms": "2%10N45",  
+    "freight_terms": "Freight Collect/FCA-O",  
+    "ship_via": "AIH/TRUCK"  
+  },  
+  "items": [  
+    {  
+      "line": 1,  
+      "item_no": "T3585-02CPF086",  
+      "description": "2-56 Primer Free Tangless Insert 1.0 dia",  
+      "cross_reference_no": null,  
+      "rev": null,  
+      "uom": "Each",  
+      "quantity": 120,  
+      "unit_price": 0.750,  
+      "total_price": 90.00,  
+      "lead_time": "2W-3W"  
+    },  
+    {  
+      "line": 2,  
+      "item_no": "MS24693C8",  
+      "description": "Screw, S/S",  
+      "cross_reference_no": "MS24693-C8",  
+      "rev": null,  
+      "uom": "Each",  
+      "quantity": 80,  
+      "unit_price": 0.070,  
+      "total_price": 5.60,  
+      "lead_time": "Stock"  
+    },  
+    {  
+      "line": 3,  
+      "item_no": "MS16555-608",  
+      "description": "Dowel Pin S/S",  
+      "cross_reference_no": null,  
+      "rev": null,  
+      "uom": "Each",  
+      "quantity": 40,  
+      "unit_price": 0.750,  
+      "total_price": 30.00,  
+      "lead_time": "2W-3W"  
+    }  
+  ],  
+  "financial_summary": {  
+    "subtotal": 125.60,  
+    "invoice_discount": 0.00,  
+    "tax": null,  
+    "total": 125.60  
+  },  
+  "notes": [  
+    "Standard Terms: Net 30 upon credit approval.",  
+    "Quotes subject to AIH's Terms and Conditions of Sale, located at: https://www.aihfasteners.com/about-us/terms-and-conditions-of-sale",  
+    "We accept Visa, Mastercard, and American Express.",  
+    "All stock items are subject to prior sale",  
+    "SO-FORM-003 Rev C"  
+  ]  
+}  
