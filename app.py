@@ -11,6 +11,7 @@ from azure.cosmos import CosmosClient
 import azure.cosmos.exceptions as exceptions
 import streamlit as st
 import shutil
+import time
 
 
 
@@ -281,6 +282,22 @@ def generate_schema_from_json(data, key=None):
     else:
         return {}
 
+def progress_bar(text, size):
+    st.write(text)
+    print("size: ", size)
+    my_bar = st.progress(0)
+    gap = 100 / size
+    for percent_complete in range(size):
+        time.sleep(gap)
+        print("percent_complete: ", percent_complete)
+        print("gap: ", gap)
+        step = max(percent_complete + gap, 100)
+        print("step: ", step)
+        if step <= 100:
+            my_bar.progress(step)
+    
+
+
 def cosmodDB_upsert_item(jsondata, database):
 # Read the JSON file
     # Initialize the Cosmos client
@@ -301,16 +318,19 @@ def cosmodDB_upsert_item(jsondata, database):
     container.create_item(body=jsondata,
         enable_automatic_id_generation=True)
 
+
 st.title("Invoice Data Extraction")
 
 # Select company
 companys = ["arrow", "euc", "abc", "max"]
-company = st.selectbox("Select Company", companys)
+company = st.sidebar.selectbox("Select Company", companys)
 
-uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"])
-st.sidebar.title("Uploaded PDF")
+uploaded_file = st.sidebar.file_uploader("Upload a PDF file", type=["pdf"])
+st.sidebar.title("Uploaded PDF File")
+
 
 if uploaded_file is not None:
+    
     # Save the uploaded file to a local directory called 'temp'
     temp_dir = "temp"
     os.makedirs(temp_dir, exist_ok=True)
@@ -319,7 +339,7 @@ if uploaded_file is not None:
     with open(temp_file_path, "wb") as temp_file:
         temp_file.write(uploaded_file.getbuffer())
         print("Temp file path: " + temp_file_path)
-
+    #progress_bar("Uploading and scanning PDF file...", os.path.getsize(temp_file_path))
     # Display the uploaded PDF file
     #st.sidebar.title("Uploaded PDF")
     st.sidebar.write(uploaded_file.name)
@@ -331,7 +351,7 @@ if uploaded_file is not None:
         base64_pdf = base64.b64encode(f.read()).decode('utf-8')
         
 
-    pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf"></iframe>'
+    pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="1000" type="application/pdf"></iframe>'
     st.markdown(pdf_display, unsafe_allow_html=True)
     
     if st.button("Begin Processing"):
@@ -349,7 +369,7 @@ if uploaded_file is not None:
         os.remove("temp_uploaded_file.pdf")
 
         # Display extracted and transformed JSON side by side with custom width
-        col1, col2 = st.columns([1.5, 1.5])
+        col1, col2 = st.columns(2)
 
         print("Processing company: " + company)
         #read_path = "./data/" + company + "invoices"
