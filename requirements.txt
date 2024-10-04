@@ -1,4 +1,4 @@
-openai
+openai ==1.45.1
 PyMuPDF #==1.18.19  # Specific version for compatibility
 Pillow
 python-dotenv
