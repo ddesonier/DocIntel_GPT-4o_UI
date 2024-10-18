@@ -1,0 +1,99 @@
+{
+  "type": "array",
+  "items": [
+    {
+      "Purchase Order": {
+        "Number": null,
+        "Date": "2021-06-10",
+        "Revision": null,
+        "Payment Terms": null,
+        "Freight Terms": null,
+        "Ship Via": null,
+        "Currency": null
+      },
+      "Supplier": {
+        "ID": null,
+        "Name": "ABC Company",
+        "Address": "111 Pine Street, Suite 1815, San Francisco, CA, 94111",
+        "Phone/Email": "(123) 123-1232 / John@example.com",
+        "Fax": null
+      },
+      "Ship To": "Sam K. Smith, 111 Pine Street, Suite 1815, San Francisco, CA, 94111",
+      "Attention": "John Smith",
+      "Bill To": "111 Pine Street, Suite 1815, San Francisco, CA, 94111",
+      "Tax Exempt?": null,
+      "Tax Exempt ID": null,
+      "Replenishment Option": null,
+      "Items": [
+        {
+          "Line-Sch": null,
+          "Item Description": "Sink",
+          "Quantity": "2",
+          "UOM": null,
+          "PO Price": "100",
+          "Extended Amt": "200",
+          "Due Date": null,
+          "Contract ID": null,
+          "Schedule Total": {
+            "Contract Line": null,
+            "Category Line": null,
+            "Release": null
+          },
+          "Included Items": [],
+          "Item Total": "200"
+        },
+        {
+          "Line-Sch": null,
+          "Item Description": "Nest Smart Filter",
+          "Quantity": "1",
+          "UOM": null,
+          "PO Price": "150",
+          "Extended Amt": "150",
+          "Due Date": null,
+          "Contract ID": null,
+          "Schedule Total": {
+            "Contract Line": null,
+            "Category Line": null,
+            "Release": null
+          },
+          "Included Items": [],
+          "Item Total": "150"
+        },
+        {
+          "Line-Sch": null,
+          "Item Description": "Labor Fee",
+          "Quantity": "1",
+          "UOM": null,
+          "PO Price": "50",
+          "Extended Amt": "50",
+          "Due Date": null,
+          "Contract ID": null,
+          "Schedule Total": {
+            "Contract Line": null,
+            "Category Line": null,
+            "Release": null
+          },
+          "Included Items": [],
+          "Item Total": "50"
+        },
+        {
+          "Line-Sch": null,
+          "Item Description": "Service Fee",
+          "Quantity": "1",
+          "UOM": null,
+          "PO Price": "25",
+          "Extended Amt": "25",
+          "Due Date": null,
+          "Contract ID": null,
+          "Schedule Total": {
+            "Contract Line": null,
+            "Category Line": null,
+            "Release": null
+          },
+          "Included Items": [],
+          "Item Total": "25"
+        }
+      ]
+    }
+  ]
+}

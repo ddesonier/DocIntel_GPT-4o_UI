@@ -6,7 +6,7 @@
             "Purchase Order": {
                 "type": "object",
                 "properties": {
-                    "Number": {
+                    "Order Number": {
                         "type": "string"
                     },
                     "Date": {
@@ -29,7 +29,7 @@
                     }
                 },
                 "required": [
-                    "Number",
+                    "Order Number",
                     "Date",
                     "Revision",
                     "Payment Terms",
@@ -68,10 +68,13 @@
             "Ship To": {
                 "type": "string"
             },
+            "Bill To": {
+                "type": "string"
+            },
             "Attention": {
                 "type": "string"
             },
-            "Bill To": {
+            "Replenishment Option": {
                 "type": "string"
             },
             "Tax Exempt?": {
@@ -80,15 +83,12 @@
             "Tax Exempt ID": {
                 "type": "string"
             },
-            "Replenishment Option": {
-                "type": "string"
-            },
             "Items": {
                 "type": "array",
                 "items": {
                     "type": "object",
                     "properties": {
-                        "Line-Sch": {
+                        "Line-Schedule": {
                             "type": "string"
                         },
                         "Item Description": {
@@ -112,6 +112,12 @@
                         "Contract ID": {
                             "type": "string"
                         },
+                        "Included Items": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
                         "Schedule Total": {
                             "type": "object",
                             "properties": {
@@ -131,18 +137,12 @@
                                 "Release"
                             ]
                         },
-                        "Included Items": {
-                            "type": "array",
-                            "items": {
-                                "type": "string"
-                            }
-                        },
                         "Item Total": {
                             "type": "string"
                         }
                     },
                     "required": [
-                        "Line-Sch",
+                        "Line-Schedule",
                         "Item Description",
                         "Quantity",
                         "UOM",
@@ -150,8 +150,8 @@
                         "Extended Amt",
                         "Due Date",
                         "Contract ID",
-                        "Schedule Total",
                         "Included Items",
+                        "Schedule Total",
                         "Item Total"
                     ]
                 }
@@ -161,11 +161,11 @@
             "Purchase Order",
             "Supplier",
             "Ship To",
-            "Attention",
             "Bill To",
+            "Attention",
+            "Replenishment Option",
             "Tax Exempt?",
             "Tax Exempt ID",
-            "Replenishment Option",
             "Items"
         ]
     }

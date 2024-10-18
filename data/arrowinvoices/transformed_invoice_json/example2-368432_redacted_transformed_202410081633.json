@@ -1,0 +1,167 @@
+{
+  "type": "array",
+  "items": [
+    {
+      "Purchase Order": {
+        "Number": "00021-0000182500",
+        "Date": "2023-09-28",
+        "Revision": "1",
+        "Payment Terms": "Net 30",
+        "Freight Terms": "Destination",
+        "Ship Via": "Vendor Delivery",
+        "Currency": "USD"
+      },
+      "Supplier": {
+        "ID": "0000082639",
+        "Name": "IRON BOW TECHNOLOGIES LLC",
+        "Address": "2121 COOPERATIVE WAY SUITE 500 HERNDON VA 20171",
+        "Phone/Email": null,
+        "Fax": null
+      },
+      "Ship To": null,
+      "Attention": null,
+      "Bill To": null,
+      "Tax Exempt?": null,
+      "Tax Exempt ID": null,
+      "Replenishment Option": "Standard",
+      "Items": [
+        {
+          "Line-Sch": "1-1",
+          "Item Description": "DS-C9710-V3K9 Cisco Systems, Inc. MDS 9710 Config: Chassis, 2 Sup-6, 6 Fab-3, 6 3KAC",
+          "Quantity": "4.00",
+          "UOM": "EA",
+          "PO Price": null,
+          "Extended Amt": null,
+          "Due Date": "2023-11-21",
+          "Contract ID": "CTRO07737",
+          "Schedule Total": {
+            "Contract Line": "0",
+            "Category Line": "0",
+            "Release": "7"
+          },
+          "Included Items": [
+            "DS-CAC97-3KW MDS 9700 3000W AC power supply Qty 12",
+            "CAB-9K10-ACN Cabinet Jumper Power Cord, 250 VAC 16A, C20-C19 Connectors Qty 16",
+            "DS-9710-KIT-COO MDS 9710 Accessory Kit for Cisco Qty 2",
+            "DS-9710-FAB3 MDS 9710 Crossbar Switching Fabric-3 Module Qty 12",
+            "DS-C9700-LC-BL Blank Filler Card for Line Card slot in MDS9700 Chassis Qty 4",
+            "M97S4K9-84.2B MDS 9700 NX-OS Software Release 8.4(2)B for booting on Sup-4 Qty 2",
+            "DS-X97-SF-K9 MDS 9700 Series Supervisor-4 Qty 4"
+          ],
+          "Item Total": null
+        },
+        {
+          "Line-Sch": "2-1",
+          "Item Description": "CON-3SC4P-C9710 Cisco Systems, Inc. SION SUPP 24X7XOS MDS 971 Chassis No Power Supplies Fans I",
+          "Quantity": "1.00",
+          "UOM": "LOT",
+          "PO Price": null,
+          "Extended Amt": null,
+          "Due Date": "2027-01-31",
+          "Contract ID": "CTRO07737",
+          "Schedule Total": {
+            "Contract Line": "0",
+            "Category Line": "0",
+            "Release": "9"
+          },
+          "Included Items": [],
+          "Item Total": null
+        },
+        {
+          "Line-Sch": "3-1",
+          "Item Description": "DS-CAC97-3KW Cisco Systems, Inc. MDS 9700 3000W AC power supply",
+          "Quantity": "8.00",
+          "UOM": "EA",
+          "PO Price": null,
+          "Extended Amt": null,
+          "Due Date": "2023-11-21",
+          "Contract ID": "CTRO07737",
+          "Schedule Total": {
+            "Contract Line": "0",
+            "Category Line": "0",
+            "Release": "10"
+          },
+          "Included Items": [],
+          "Item Total": null
+        }
+      ]
+    },
+    {
+      "Purchase Order": {
+        "Number": "00021-0000182500",
+        "Date": "2023-09-28",
+        "Revision": "2",
+        "Payment Terms": "Net 30",
+        "Freight Terms": "Destination",
+        "Ship Via": "Delivery",
+        "Currency": "USD"
+      },
+      "Supplier": {
+        "ID": "0000082639",
+        "Name": "IRON BOW TECHNOLOGIES LLC",
+        "Address": "21351 COOPERATIVE WAY SUITE 500 HERNDON VA 20171",
+        "Phone/Email": null,
+        "Fax": null
+      },
+      "Ship To": null,
+      "Attention": null,
+      "Bill To": null,
+      "Tax Exempt?": "Y",
+      "Tax Exempt ID": "530116705",
+      "Replenishment Option": "Standard",
+      "Items": [
+        {
+          "Line-Sch": "4-1",
+          "Item Description": "DS-X9648-1536K9 Cisco Systems, Inc. MDS 9700 48 PORT 32-Gbps Fibre",
+          "Quantity": "1",
+          "UOM": "EA",
+          "PO Price": null,
+          "Extended Amt": null,
+          "Due Date": "2023-11-21",
+          "Contract ID": "CTR007737",
+          "Schedule Total": {
+            "Contract Line": "0",
+            "Category Line": "0",
+            "Release": "8"
+          },
+          "Included Items": [],
+          "Item Total": null
+        },
+        {
+          "Line-Sch": "5-1",
+          "Item Description": "DS-SFP-FC32G-SW Cisco Systems, Inc. 32 Gbps Fibre Channel SW SFP+, LC",
+          "Quantity": "1",
+          "UOM": "EA",
+          "PO Price": null,
+          "Extended Amt": null,
+          "Due Date": "2023-01-21",
+          "Contract ID": "CTR007737",
+          "Schedule Total": {
+            "Contract Line": "0",
+            "Category Line": "0",
+            "Release": "11"
+          },
+          "Included Items": [],
+          "Item Total": null
+        },
+        {
+          "Line-Sch": "6-1",
+          "Item Description": "Freight",
+          "Quantity": "1.00",
+          "UOM": "EA",
+          "PO Price": null,
+          "Extended Amt": null,
+          "Due Date": "2023-01-21",
+          "Contract ID": "CTR007737",
+          "Schedule Total": {
+            "Contract Line": "0",
+            "Category Line": "0",
+            "Release": "12"
+          },
+          "Included Items": [],
+          "Item Total": null
+        }
+      ]
+    }
+  ]
+}

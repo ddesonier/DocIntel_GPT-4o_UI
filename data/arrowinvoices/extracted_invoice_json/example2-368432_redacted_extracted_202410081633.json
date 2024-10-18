@@ -1,0 +1,473 @@
+[
+    {
+        "Purchase Order": {
+            "Number": "00021-0000182500",
+            "Date": "09/28/2023",
+            "Revision": "1",
+            "Payment Terms": "Net 30",
+            "Freight Terms": "Destination",
+            "Ship Via": "Vendor Delivery",
+            "Currency": "USD"
+        },
+        "Supplier": {
+            "ID": "0000082639",
+            "Name": "IRON BOW TECHNOLOGIES LLC",
+            "Address": "2121 COOPERATIVE WAY SUITE 500 HERNDON VA 20171",
+            "Phone/Email": "null",
+            "Fax": "null"
+        },
+        "Ship To": "null",
+        "Attention": "null",
+        "Bill To": "null",
+        "Tax Exempt?": "null",
+        "Tax Exempt ID": "null",
+        "Replenishment Option": "Standard",
+        "Items": [
+            {
+                "Line-Sch": "1-1",
+                "Item Description": "DS-C9710-V3K9 Cisco Systems, Inc. MDS 9710 Config: Chassis, 2 Sup-6, 6 Fab-3, 6 3KAC",
+                "Quantity": "4.00",
+                "UOM": "EA",
+                "PO Price": "null",
+                "Extended Amt": "null",
+                "Due Date": "11/21/2023",
+                "Contract ID": "CTRO07737",
+                "Schedule Total": {
+                    "Contract Line": "0",
+                    "Category Line": "0",
+                    "Release": "7"
+                },
+                "Included Items": [
+                    "DS-CAC97-3KW MDS 9700 3000W AC power supply Qty 12",
+                    "CAB-9K10-ACN Cabinet Jumper Power Cord, 250 VAC 16A, C20-C19 Connectors Qty 16",
+                    "DS-9710-KIT-COO MDS 9710 Accessory Kit for Cisco Qty 2",
+                    "DS-9710-FAB3 MDS 9710 Crossbar Switching Fabric-3 Module Qty 12",
+                    "DS-C9700-LC-BL Blank Filler Card for Line Card slot in MDS9700 Chassis Qty 4",
+                    "M97S4K9-84.2B MDS 9700 NX-OS Software Release 8.4(2)B for booting on Sup-4 Qty 2",
+                    "DS-X97-SF-K9 MDS 9700 Series Supervisor-4 Qty 4"
+                ],
+                "Item Total": "null"
+            },
+            {
+                "Line-Sch": "2-1",
+                "Item Description": "CON-3SC4P-C9710 Cisco Systems, Inc. SION SUPP 24X7XOS MDS 971 Chassis No Power Supplies Fans I",
+                "Quantity": "1.00",
+                "UOM": "LOT",
+                "PO Price": "null",
+                "Extended Amt": "null",
+                "Due Date": "01/31/2027",
+                "Contract ID": "CTRO07737",
+                "Schedule Total": {
+                    "Contract Line": "0",
+                    "Category Line": "0",
+                    "Release": "9"
+                },
+                "Item Total": "null"
+            },
+            {
+                "Line-Sch": "3-1",
+                "Item Description": "DS-CAC97-3KW Cisco Systems, Inc. MDS 9700 3000W AC power supply",
+                "Quantity": "8.00",
+                "UOM": "EA",
+                "PO Price": "null",
+                "Extended Amt": "null",
+                "Due Date": "11/21/2023",
+                "Contract ID": "CTRO07737",
+                "Schedule Total": {
+                    "Contract Line": "0",
+                    "Category Line": "0",
+                    "Release": "10"
+                },
+                "Item Total": "null"
+            }
+        ]
+    },
+    {
+        "Purchase Order": {
+            "Number": "00021-0000182500",
+            "Date": "09/28/2023",
+            "Revision": "2",
+            "Page": "2"
+        },
+        "Payment Terms": "Net 30",
+        "Freight Terms": "Destination",
+        "Ship Via": "Delivery",
+        "Currency": "USD",
+        "Supplier": {
+            "ID": "0000082639",
+            "Name": "IRON BOW TECHNOLOGIES LLC",
+            "Address": "21351 COOPERATIVE WAY SUITE 500 HERNDON VA 20171",
+            "Phone/Email": "null",
+            "Fax": "null"
+        },
+        "Ship To": "null",
+        "Attention": "null",
+        "Bill To": "null",
+        "Tax Exempt?": "Y",
+        "Tax Exempt ID": "530116705",
+        "Replenishment Option": "Standard",
+        "Items": [
+            {
+                "Line-Sch": "4-1",
+                "Item Description": "DS-X9648-1536K9 Cisco Systems, Inc. MDS 9700 48 PORT 32-Gbps Fibre",
+                "Mfg ID": "null",
+                "Quantity": "1",
+                "UOM": "EA",
+                "PO Price": "null",
+                "Extended Amt": "null",
+                "Due Date": "11/21/2023",
+                "Contract ID": "CTR007737",
+                "Contract Line": "0",
+                "Category Line": "0",
+                "Release": "8",
+                "Item Total": "null",
+                "Schedule Total": "null"
+            },
+            {
+                "Line-Sch": "5-1",
+                "Item Description": "DS-SFP-FC32G-SW Cisco Systems, Inc. 32 Gbps Fibre Channel SW SFP+, LC",
+                "Mfg ID": "null",
+                "Quantity": "1",
+                "UOM": "EA",
+                "PO Price": "null",
+                "Extended Amt": "null",
+                "Due Date": "1/21/2023",
+                "Contract ID": "CTR007737",
+                "Contract Line": "0",
+                "Category Line": "0",
+                "Release": "11",
+                "Item Total": "null",
+                "Schedule Total": "null"
+            },
+            {
+                "Line-Sch": "6-1",
+                "Item Description": "Freight",
+                "Mfg ID": "null",
+                "Quantity": "1.00",
+                "UOM": "EA",
+                "PO Price": "null",
+                "Extended Amt": "null",
+                "Due Date": "1/21/2023",
+                "Contract ID": "CTR007737",
+                "Contract Line": "0",
+                "Category Line": "0",
+                "Release": "12",
+                "Item Total": "null",
+                "Schedule Total": "null"
+            }
+        ],
+        "Reference": "PO # 182500 on all invoices and send to [REDACTED]",
+        "Total PO Amount": "null"
+    },
+    {
+        "company_information": {
+            "name": "Iron Bow Technologies",
+            "address": "2121 Cooperative Way, Suite 500, Herndon, VA 20171"
+        },
+        "quote_information": {
+            "quote_number_version": "368432 / 3",
+            "date": "02/21/2024",
+            "comment": "Current estimated Cisco lead time = 49 Days. SMARTnet Maintenance has been prorated 47 months, to co-term 8/31/27."
+        },
+        "items": [
+            {
+                "#": 1,
+                "CLIN / Price List": "(OPEN MARKET)",
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-C9710-V3K9\nCisco Systems, Inc.\nMDS 9710 V3 Config: Chassis, 2 Sup-4, 6 Fab-3,6 3KAC",
+                "Qty": 2,
+                "Unit Price": null,
+                "Extended Price": null,
+                "included_items": [
+                    "DS-CAC97-3KW",
+                    "MDS 9700 3000W AC power supply Qty 12",
+                    "CAB-9K10-AC",
+                    "Cabinet Jumper Power Cord, 250 VAC 16A, C20-C19 Connectors Qty 16",
+                    "DS-C9710-KIT",
+                    "MDS 9710 Accessory Kit for Cisco Qty 2",
+                    "MDS-9710-FAB3",
+                    "MDS 9710 Crossbar Switching Fabric-3 Module Qty 12",
+                    "DS-C9700-LC-BL",
+                    "Blank Filler Card for Line Card slot in MDS9700 Chassis Qty 4",
+                    "M97S-BK10-8-28",
+                    "MDS 9700 NX-OS Software Release 8.4(2)B for booting on Sup-4 Qty 2",
+                    "DS-SFP-FC4-SW",
+                    "MDS 9700 Series Supervisor-4 Qty 4"
+                ]
+            }
+        ]
+    },
+    {
+        "invoice": {
+            "items": [
+                {
+                    "CLIN": 2,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: CON-SSC4P-C9710\nCisco Systems, Inc.\nSOLN SUPP 24X7X4OS MDS 9710 Chassis No Power Supplies Fans I",
+                    "Qty": 2,
+                    "Unit Price": null,
+                    "Extended Price": null
+                },
+                {
+                    "CLIN": 3,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-CAC97-3KW\nCisco Systems, Inc.\nMDS 9700 3000W AC power supply",
+                    "Qty": 4,
+                    "Unit Price": null,
+                    "Extended Price": null
+                },
+                {
+                    "CLIN": 4,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.",
+                    "Qty": 2,
+                    "Unit Price": null,
+                    "Extended Price": null
+                },
+                {
+                    "CLIN": 5,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-BFP-FC32G-SW\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\n32 Gbps Fibre Channel SW SFP+, LC",
+                    "Qty": 96,
+                    "Unit Price": null,
+                    "Extended Price": null
+                },
+                {
+                    "CLIN": 6,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.",
+                    "Qty": 2,
+                    "Unit Price": null,
+                    "Extended Price": null
+                },
+                {
+                    "CLIN": 7,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-BFP-FC32G-SW\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\n32 Gbps Fibre Channel SW SFP+, LC",
+                    "Qty": 96,
+                    "Unit Price": null,
+                    "Extended Price": null
+                },
+                {
+                    "CLIN": 8,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.",
+                    "Qty": 2,
+                    "Unit Price": null,
+                    "Extended Price": null
+                },
+                {
+                    "CLIN": 9,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-BFP-FC32G-SW\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\n32 Gbps Fibre Channel SW SFP+, LC",
+                    "Qty": 96,
+                    "Unit Price": null,
+                    "Extended Price": null
+                },
+                {
+                    "CLIN": 10,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.",
+                    "Qty": 2,
+                    "Unit Price": null,
+                    "Extended Price": null
+                },
+                {
+                    "CLIN": 11,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-BFP-FC32G-SW\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\n32 Gbps Fibre Channel SW SFP+, LC",
+                    "Qty": 96,
+                    "Unit Price": null,
+                    "Extended Price": null
+                },
+                {
+                    "CLIN": 12,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.",
+                    "Qty": 2,
+                    "Unit Price": null,
+                    "Extended Price": null
+                },
+                {
+                    "CLIN": 13,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-BFP-FC32G-SW\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\n32 Gbps Fibre Channel SW SFP+, LC",
+                    "Qty": 96,
+                    "Unit Price": null,
+                    "Extended Price": null
+                },
+                {
+                    "CLIN": 14,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.",
+                    "Qty": 2,
+                    "Unit Price": null,
+                    "Extended Price": null
+                },
+                {
+                    "CLIN": 15,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-BFP-FC32G-SW\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\n32 Gbps Fibre Channel SW SFP+, LC",
+                    "Qty": 96,
+                    "Unit Price": null,
+                    "Extended Price": null
+                },
+                {
+                    "CLIN": 16,
+                    "Price List": "OPEN MARKET",
+                    "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-C9710-V3K9\nCisco Systems, Inc.\nMDS 9710 Accessory Kit for Cisco Day 2",
+                    "Qty": 2,
+                    "Unit Price": null,
+                    "Extended Price": null
+                }
+            ],
+            "notes": [
+                "S/N INCLUDED ITEMS:",
+                "DS-CAC97-3KW",
+                "MDS 9700 3000W AC power supply Qty 12",
+                "CAB-9K10-CBN",
+                "Cabinet Jumper Power Cord, 250 VAC 16A, C20-C19 Connectors Qty 2",
+                "DS-C9710-KIT-CCO",
+                "MDS 9710 Accessory Kit for Cisco Day 2"
+            ]
+        }
+    },
+    {
+        "items": [
+            {
+                "CLIN / Price List": 17,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: CON-SSS4P-C9710\nCisco Systems, Inc.\nSOLN SUPP 24X7X4OS MDS 9710 Chassis No Power Supplies Fans 1",
+                "Qty": 2,
+                "Unit Price": null,
+                "Extended Price": null
+            },
+            {
+                "CLIN / Price List": 18,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-CAC97-3K9MX\nCisco Systems, Inc.\nMDS 9700 3000W AC power supply",
+                "Qty": 4,
+                "Unit Price": null,
+                "Extended Price": null
+            },
+            {
+                "CLIN / Price List": 19,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\nMfr Part #: DS-FPR-FC32G-SW\nCisco Systems, Inc.\n32 Gbps Fibre Channel SW SFP+, LC",
+                "Qty": 2,
+                "Unit Price": null,
+                "Extended Price": null
+            },
+            {
+                "CLIN / Price List": 20,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\nMfr Part #: DS-FPR-FC32G-SW\nCisco Systems, Inc.\n32 Gbps Fibre Channel SW SFP+, LC",
+                "Qty": 96,
+                "Unit Price": null,
+                "Extended Price": null
+            },
+            {
+                "CLIN / Price List": 21,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\nMfr Part #: DS-FPR-FC32G-SW\nCisco Systems, Inc.\n32 Gbps Fibre Channel SW SFP+, LC",
+                "Qty": 2,
+                "Unit Price": null,
+                "Extended Price": null
+            },
+            {
+                "CLIN / Price List": 22,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\nMfr Part #: DS-FPR-FC32G-SW\nCisco Systems, Inc.\n32 Gbps Fibre Channel SW SFP+, LC",
+                "Qty": 96,
+                "Unit Price": null,
+                "Extended Price": null
+            },
+            {
+                "CLIN / Price List": 23,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\nMfr Part #: DS-FPR-FC32G-SW\nCisco Systems, Inc.\n32 Gbps Fibre Channel SW SFP+, LC",
+                "Qty": 2,
+                "Unit Price": null,
+                "Extended Price": null
+            },
+            {
+                "CLIN / Price List": 24,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\nMfr Part #: DS-FPR-FC32G-SW\nCisco Systems, Inc.\n32 Gbps Fibre Channel SW SFP+, LC",
+                "Qty": 96,
+                "Unit Price": null,
+                "Extended Price": null
+            },
+            {
+                "CLIN / Price List": 25,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\nMfr Part #: DS-FPR-FC32G-SW\nCisco Systems, Inc.\n32 Gbps Fibre Channel SW SFP+, LC",
+                "Qty": 2,
+                "Unit Price": null,
+                "Extended Price": null
+            },
+            {
+                "CLIN / Price List": 26,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\nMfr Part #: DS-FPR-FC32G-SW\nCisco Systems, Inc.\n32 Gbps Fibre Channel SW SFP+, LC",
+                "Qty": 96,
+                "Unit Price": null,
+                "Extended Price": null
+            },
+            {
+                "CLIN / Price List": 27,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\nMfr Part #: DS-FPR-FC32G-SW\nCisco Systems, Inc.\n32 Gbps Fibre Channel SW SFP+, LC",
+                "Qty": 2,
+                "Unit Price": null,
+                "Extended Price": null
+            },
+            {
+                "CLIN / Price List": 28,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\nMfr Part #: DS-FPR-FC32G-SW\nCisco Systems, Inc.\n32 Gbps Fibre Channel SW SFP+, LC",
+                "Qty": 96,
+                "Unit Price": null,
+                "Extended Price": null
+            },
+            {
+                "CLIN / Price List": 29,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\nMfr Part #: DS-FPR-FC32G-SW\nCisco Systems, Inc.\n32 Gbps Fibre Channel SW SFP+, LC",
+                "Qty": 2,
+                "Unit Price": null,
+                "Extended Price": null
+            },
+            {
+                "CLIN / Price List": 30,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.\nMDS 9700 48-PORT 32-Gbps Fibre\nMfr Part #: DS-FPR-FC32G-SW\nCisco Systems, Inc.\n32 Gbps Fibre Channel SW SFP+, LC",
+                "Qty": 96,
+                "Unit Price": null,
+                "Extended Price": null
+            },
+            {
+                "CLIN / Price List": 31,
+                "Mfr Part # / Manufacturer / Description": "Mfr Part #: DS-X9648-1536K9\nCisco Systems, Inc.",
+                "Qty": 2,
+                "Unit Price": null,
+                "Extended Price": null
+            }
+        ]
+    },
+    {
+        "Invoice": {
+            "Items": [
+                {
+                    "#": "32",
+                    "CLIN / Price List": "(OPEN MARKET)",
+                    "Mfr Part # / Manufacturer / Description": "MDS 9700 48 PORT 32-Gbps Fibre\nMfr Part #: DS-SFP-FC32G-SW\nCisco Systems, Inc.\n32 Gbps Fibre Channel SW SFP+, LC",
+                    "Qty": "96",
+                    "Unit Price": null,
+                    "Extended Price": null
+                }
+            ],
+            "Subtotal": null,
+            "Tax": null,
+            "Freight": null,
+            "Total": null
+        },
+        "Terms/Quote Details": null,
+        "Remit To": null,
+        "Notes": [
+            "EFT/Check info reflects Iron Bow's change to PNC Bank. Email arproduct@ironbow.com if additional info is needed. Our prior bank account will remain open during the transition.",
+            "* Items quoted herein requiring international shipment or shipment to a foreign entity within the U.S. may be export controlled. Buyer agrees to incorporate this quote number into any order. Iron Bow is not the responsible party for exporting items and will not be the U.S. Principal Party in Interest in any order resulting from this quote.",
+            "* All returns of both commercial and customized products or product configuration are subject to the supplier and/or original equipment manufacturers Return Materials Authorization (RMA) policy.",
+            "* This Quote is valid for 30 days.",
+            "Customers contracting with Iron Bow for integration services or to warehouse product for delayed or staggered delivery will be invoiced for both inbound freight charges to Iron Bow from product distributors, as well as for each secondary shipment from an Iron Bow warehouse to the final customer destination. The buyer is responsible for all applicable sales tax, unless a valid tax exemption or resale certificate is on file and current.",
+            "Except as otherwise agreed to by the applicable Original Equipment Manufacturer (\"OEM\") or supplier in relation to this Quote, Iron Bow does not accept order cancellations, in whole or in part, unless such cancellation is in accordance with the applicable OEM's or supplier's cancellation policies and procedures. Customer may be required to provide written justification and/or contact the OEM or supplier directly for any cancellations.",
+            "This quote is governed by the Master Agreement Terms and Conditions, between Iron Bow Technologies an executed 03/28/2013.",
+            "** PROPRIETARY & CONFIDENTIAL ** This document and any referenced links or supplemental documentation is confidential and/or proprietary and intended solely for the named entity within this quote. Unauthorized use, copying, distribution, or disclosure is prohibited. If you received this document in error, please notify the referenced Iron Bow personnel via phone or email."
+        ]
+    }
+]

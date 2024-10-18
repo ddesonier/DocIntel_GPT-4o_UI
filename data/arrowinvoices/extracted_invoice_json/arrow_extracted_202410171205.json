@@ -1,0 +1,73 @@
+[
+    {
+        "company_info": {
+            "name": "Company Name",
+            "address": "Street Address",
+            "city_state_zip": "City, ST ZIP Code",
+            "phone": "(123) 456 78 99",
+            "fax": "(123) 456 78 99"
+        },
+        "invoice_info": {
+            "date": "June 14, 2018",
+            "invoice_number": "100"
+        },
+        "bill_to": {
+            "name": "Name",
+            "company_name": "Company Name",
+            "address": "Street Address",
+            "city_state_zip": "City, ST ZIP Code",
+            "phone": "Phone"
+        },
+        "ship_to": {
+            "name": "Name",
+            "company_name": "Company Name",
+            "address": "Street Address",
+            "city_state_zip": "City, ST ZIP Code",
+            "phone": "Phone"
+        },
+        "sales_info": {
+            "salesperson": null,
+            "ship_via": null,
+            "ship_date": null,
+            "terms": null,
+            "due_date": null
+        },
+        "items": [
+            {
+                "id": "1",
+                "description": "Item 1 description",
+                "quantity": "23",
+                "unit_price": "44.99",
+                "line_total": "1,034.77"
+            },
+            {
+                "id": "2",
+                "description": "Item 1 description",
+                "quantity": "4",
+                "unit_price": "12.99",
+                "line_total": "51.96"
+            },
+            {
+                "id": "3",
+                "description": "Item 1 description",
+                "quantity": "2",
+                "unit_price": "89.99",
+                "line_total": "179.98"
+            },
+            {
+                "id": "4",
+                "description": "Item 1 description",
+                "quantity": "56",
+                "unit_price": "0.99",
+                "line_total": "55.44"
+            }
+        ],
+        "totals": {
+            "subtotal": "1,322.15",
+            "tax_rate": "6.50%",
+            "sales_tax": "85.94",
+            "shipping_and_handling": null,
+            "total": "1,408.09"
+        }
+    }
+]

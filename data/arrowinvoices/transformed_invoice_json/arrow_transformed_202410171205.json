@@ -1,0 +1,94 @@
+{
+  "Purchase Order": {
+    "Number": "100",
+    "Date": "2018-06-14",
+    "Revision": null,
+    "Payment Terms": null,
+    "Freight Terms": null,
+    "Ship Via": null,
+    "Currency": null
+  },
+  "Supplier": {
+    "ID": null,
+    "Name": "Company Name",
+    "Address": "Street Address, City, ST ZIP Code",
+    "Phone/Email": "(123) 456 78 99",
+    "Fax": "(123) 456 78 99"
+  },
+  "Ship To": "Name, Company Name, Street Address, City, ST ZIP Code",
+  "Attention": "Name",
+  "Bill To": "Name, Company Name, Street Address, City, ST ZIP Code",
+  "Tax Exempt?": null,
+  "Tax Exempt ID": null,
+  "Replenishment Option": null,
+  "Items": [
+    {
+      "Line-Sch": "1",
+      "Item Description": "Item 1 description",
+      "Quantity": "23",
+      "UOM": null,
+      "PO Price": "44.99",
+      "Extended Amt": "1,034.77",
+      "Due Date": null,
+      "Contract ID": null,
+      "Schedule Total": {
+        "Contract Line": null,
+        "Category Line": null,
+        "Release": null
+      },
+      "Included Items": [],
+      "Item Total": "1,034.77"
+    },
+    {
+      "Line-Sch": "2",
+      "Item Description": "Item 1 description",
+      "Quantity": "4",
+      "UOM": null,
+      "PO Price": "12.99",
+      "Extended Amt": "51.96",
+      "Due Date": null,
+      "Contract ID": null,
+      "Schedule Total": {
+        "Contract Line": null,
+        "Category Line": null,
+        "Release": null
+      },
+      "Included Items": [],
+      "Item Total": "51.96"
+    },
+    {
+      "Line-Sch": "3",
+      "Item Description": "Item 1 description",
+      "Quantity": "2",
+      "UOM": null,
+      "PO Price": "89.99",
+      "Extended Amt": "179.98",
+      "Due Date": null,
+      "Contract ID": null,
+      "Schedule Total": {
+        "Contract Line": null,
+        "Category Line": null,
+        "Release": null
+      },
+      "Included Items": [],
+      "Item Total": "179.98"
+    },
+    {
+      "Line-Sch": "4",
+      "Item Description": "Item 1 description",
+      "Quantity": "56",
+      "UOM": null,
+      "PO Price": "0.99",
+      "Extended Amt": "55.44",
+      "Due Date": null,
+      "Contract ID": null,
+      "Schedule Total": {
+        "Contract Line": null,
+        "Category Line": null,
+        "Release": null
+      },
+      "Included Items": [],
+      "Item Total": "55.44"
+    }
+  ]
+}

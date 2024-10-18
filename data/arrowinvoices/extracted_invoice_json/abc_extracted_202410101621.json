@@ -1,0 +1,50 @@
+[
+    {
+        "Invoice Information": {
+            "Date": "06/10/2021",
+            "Invoice Number": "INVO-005"
+        },
+        "Billing Information": {
+            "Company": "ABC Company",
+            "Name": "John Smith",
+            "Address": "111 Pine Street, Suite 1815, San Francisco, CA, 94111",
+            "Phone Number": "(123) 123-1232",
+            "Email": "John@example.com"
+        },
+        "Shipping Information": {
+            "Name": "Sam K. Smith",
+            "Address": "111 Pine Street, Suite 1815, San Francisco, CA, 94111"
+        },
+        "Items": [
+            {
+                "Product/Service": "Product/Service 1",
+                "Description": "Sink",
+                "Quantity": 2,
+                "Unit Price": 100,
+                "Total": "$200"
+            },
+            {
+                "Product/Service": "Product/Service 2",
+                "Description": "Nest Smart Filter",
+                "Quantity": 1,
+                "Unit Price": 150,
+                "Total": "$150"
+            },
+            {
+                "Product/Service": "Product/Service 3",
+                "Description": "Labor Fee",
+                "Quantity": 1,
+                "Unit Price": 50,
+                "Total": "$50"
+            },
+            {
+                "Product/Service": "Product/Service 4",
+                "Description": "Service Fee",
+                "Quantity": 1,
+                "Unit Price": 25,
+                "Total": "$25"
+            }
+        ],
+        "Total": "$425"
+    }
+]

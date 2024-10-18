@@ -1,0 +1,99 @@
+{
+  "type": "array",
+  "items": [
+    {
+      "Purchase Order": {
+        "Number": null,
+        "Date": null,
+        "Revision": null,
+        "Payment Terms": null,
+        "Freight Terms": null,
+        "Ship Via": null,
+        "Currency": null
+      },
+      "Supplier": {
+        "ID": null,
+        "Name": "Your Company Name",
+        "Address": "311 Woodland Drive, Hillsboro, OH 45133",
+        "Phone/Email": "(555) 555-5555 / xxx@company.com",
+        "Fax": "(555) 555-5555"
+      },
+      "Ship To": "Check here if same as bill to: ______",
+      "Attention": null,
+      "Bill To": null,
+      "Tax Exempt?": null,
+      "Tax Exempt ID": "55-55555",
+      "Replenishment Option": null,
+      "Items": [
+        {
+          "Line-Sch": null,
+          "Item Description": "Pocket PC database software",
+          "Quantity": null,
+          "UOM": null,
+          "PO Price": "$14.95",
+          "Extended Amt": null,
+          "Due Date": null,
+          "Contract ID": null,
+          "Schedule Total": {
+            "Contract Line": null,
+            "Category Line": null,
+            "Release": null
+          },
+          "Included Items": [],
+          "Item Total": null
+        },
+        {
+          "Line-Sch": null,
+          "Item Description": "Pocket PC diet and exercise software",
+          "Quantity": null,
+          "UOM": null,
+          "PO Price": "$19.95",
+          "Extended Amt": null,
+          "Due Date": null,
+          "Contract ID": null,
+          "Schedule Total": {
+            "Contract Line": null,
+            "Category Line": null,
+            "Release": null
+          },
+          "Included Items": [],
+          "Item Total": null
+        },
+        {
+          "Line-Sch": null,
+          "Item Description": "Windows diet and exercise software",
+          "Quantity": null,
+          "UOM": null,
+          "PO Price": "$15.99",
+          "Extended Amt": null,
+          "Due Date": null,
+          "Contract ID": null,
+          "Schedule Total": {
+            "Contract Line": null,
+            "Category Line": null,
+            "Release": null
+          },
+          "Included Items": [],
+          "Item Total": null
+        },
+        {
+          "Line-Sch": null,
+          "Item Description": "Pocket PC text utility software",
+          "Quantity": null,
+          "UOM": null,
+          "PO Price": "$4.99",
+          "Extended Amt": null,
+          "Due Date": null,
+          "Contract ID": null,
+          "Schedule Total": {
+            "Contract Line": null,
+            "Category Line": null,
+            "Release": null
+          },
+          "Included Items": [],
+          "Item Total": null
+        }
+      ]
+    }
+  ]
+}

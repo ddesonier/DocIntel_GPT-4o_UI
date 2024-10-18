@@ -1,0 +1,56 @@
+[
+    {
+        "Company Information": {
+            "Name": "Your Company Name",
+            "Address": "311 Woodland Drive, Hillsboro, OH 45133",
+            "Website": "http://www.yourcompany.com",
+            "Email": "xxx@company.com"
+        },
+        "European Union Customers": {
+            "Phone": "(555) 555-5555",
+            "Fax": "(555) 555-5555",
+            "Tax ID Number": "55-55555"
+        },
+        "Purchase Order": {
+            "Bill To": null,
+            "Ship To": "Check here if same as bill to: ______",
+            "Email Address": null
+        },
+        "Items": [
+            {
+                "Qty": null,
+                "Item": "Data On The Run",
+                "Description": "Pocket PC database software",
+                "Each": "$14.95",
+                "Total": "$"
+            },
+            {
+                "Qty": null,
+                "Item": "Mobile Coach",
+                "Description": "Pocket PC diet and exercise software",
+                "Each": "$19.95",
+                "Total": "$"
+            },
+            {
+                "Qty": null,
+                "Item": "Mobile Coach for Windows",
+                "Description": "Windows diet and exercise software",
+                "Each": "$15.99",
+                "Total": "$"
+            },
+            {
+                "Qty": null,
+                "Item": "CopyText Pro",
+                "Description": "Pocket PC text utility software",
+                "Each": "$4.99",
+                "Total": "$"
+            }
+        ],
+        "Totals": {
+            "Total": "$",
+            "Taxes (Ohio residents add 6%)": "$",
+            "Balance Due": "$"
+        },
+        "Notes": "Thanks for your business! Payment should be made in US funds to Biomobility, LLC. For technical support, visit our web site at Customers from European Union countries should use to purchase software; because of changes in the way VAT tax is handled, all"
+    }
+]

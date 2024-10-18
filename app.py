@@ -12,6 +12,8 @@ import azure.cosmos.exceptions as exceptions
 import streamlit as st
 import shutil
 import time
+# Import functions from generate_json_schema.py
+from generate_json_schema import generate_schema, validate_json
 
 
 
@@ -27,6 +29,10 @@ model = os.getenv("AZURE_OPENAI_CHATGPT_DEPLOYMENT")
 cosmosapi = os.getenv("AZURE_COSMOS_API")
 cosmosEndpoint = os.getenv("AZURE_COSMOS_ENDPOINT")
 
+print("Endpoint: " + openai.api_base)
+print("API Version: " + openai.api_version)
+print("API Key: " + api_key)
+print("Model: " + model)
 
 @staticmethod
 def encode_image(image_path):
@@ -53,6 +59,7 @@ def delete_files_in_directory(directory_path):
             #print(f'Failed to delete {file_path}. Reason: {e}')
 
 def pdf_to_base64_images(pdf_path):
+    print("PDF Path: " + pdf_path)
     #Handles PDFs with multiple pages
     pdf_document = fitz.open(pdf_path)
     base64_images = []
@@ -128,6 +135,8 @@ def extract_invoice_data(base64_image):
     with st.sidebar.container():
         st.sidebar.title("Model Completion Usage to Extract Invoice Data")
         st.sidebar.write(f"Usage: {response.usage}")
+
+    print("JSON: " + response.choices[0].message.content)
     return response.choices[0].message.content
 
 
@@ -138,7 +147,6 @@ def extract_from_multiple_pages(base64_images, original_filename, output_directo
 
     for base64_image in base64_images:
         invoice_json = extract_invoice_data(base64_image)
-        #print(invoice_json)
         invoice_data = json.loads(invoice_json)
         entire_invoice.append(invoice_data)
 
@@ -153,6 +161,7 @@ def extract_from_multiple_pages(base64_images, original_filename, output_directo
     # Save the entire_invoice list as a JSON file
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(entire_invoice, f, ensure_ascii=False, indent=4)
+    print("Extract From Multiple Pages Call Info:")
     print("PDF file: " + original_filename + " has been extracted to file: " + output_filename)
     with col1:
         st.title("Extracted JSON Content")
@@ -166,6 +175,7 @@ def main_extract(read_path, write_path):
         if os.path.isfile(file_path):
             base64_images = pdf_to_base64_images(file_path)
             extract_from_multiple_pages(base64_images, filename, write_path)
+
 
 
 
@@ -200,6 +210,7 @@ def transform_invoice_data(json_raw, json_schema):
         ],
         temperature=0.0,
         top_p=0.0,
+        max_tokens=16000,
     )
     print("Transform Invoice Data Call Info:")
     print(response.model)
@@ -225,6 +236,7 @@ def main_transform(extracted_invoice_json_path, myjson_schema, save_path, compan
     for filename in os.listdir(extracted_invoice_json_path):
         if filename.endswith(".json"):
             file_path = os.path.join(extracted_invoice_json_path, filename)
+            print("Main_Transform")
             print("filename: " + filename)
             # Load the extracted JSON
             with open(file_path, 'r', encoding='utf-8') as f:
@@ -238,8 +250,13 @@ def main_transform(extracted_invoice_json_path, myjson_schema, save_path, compan
             with col2:
                 st.title("Transformed JSON Content")
                 st.json(transformed_json)
+                # Ensure the output directory exists
+
+
+
+            print("Main_Transform")
             print("JSON Extraction file: " + filename + " has been transformed to file: " + transformed_filename)
-            cosmodDB_upsert_item(transformed_file_path, company)
+            # cosmodDB_upsert_item(transformed_file_path, company)
 
 
 def main_create_json_schema(extracted_invoice_json_path, json_schema_file):
@@ -249,11 +266,12 @@ def main_create_json_schema(extracted_invoice_json_path, json_schema_file):
         if os.path.isfile(file_path):
             with open(file_path, 'r') as file:
                 json_data = json.load(file)
-            json_schema = generate_schema_from_json(json_data)
+            json_schema = generate_schema(json_data)
+            #json_schema = generate_schema_from_json(json_data)
 
             with open(json_schema_file, 'w', encoding='utf-8') as f:
                 json.dump(json_schema, f, ensure_ascii=False, indent=4)
-
+            print("Main_Create_JSON_Schema")
             print(json_schema_file)
 
 def generate_schema_from_json(data, key=None):
@@ -398,7 +416,7 @@ if uploaded_file is not None:
         main_transform(extracted_invoice_json_path, json_schema, save_path, company)
 
         # Delete files in the extracted_invoice_json folder after processing
-        delete_files_in_directory(extracted_invoice_json_path)
-        delete_files_in_directory(save_path)
+        #delete_files_in_directory(extracted_invoice_json_path)
+        #delete_files_in_directory(save_path)
         delete_files_in_directory("./temp")
 
